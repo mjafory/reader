@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OCR Scanner</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<header>
+			<h1>OCR Scanner</h1>
+
+			<p>Scan your pdf to text</p>
+
+		</header>
+
+		<main>
+			<section class="upload-section">
+				<label for="upload" class="upload-btn">Choose a File</label>
+				<input type="file" id="upload" accept=".png, .jpg, .jpeg, .pdf">
+				<button class="scan-btn" onclick="processFile()">Scan File</button>
+			</section>
+
+			<section class="output-section">
+				<div id="output" class="file-output"></div>
+
+				<div class="text-output">
+					<h3>Extracted Text</h3>
+					<button class="copy-btn" onclick="copyText()">📋 Text</button>
+					<div contenteditable="true" id="editableText" class="editable-text"></div>
+
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; Magfur</p>
+		</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>

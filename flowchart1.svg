@@ -1,0 +1,67 @@
+<svg width="400" height="880" xmlns="http://www.w3.org/2000/svg">
+    <!-- Start -->
+    <rect x="120" y="20" width="200" height="40" rx="10" ry="10" fill="lightblue" stroke="black"/>
+    <text x="220" y="45" font-family="Arial" font-size="14" text-anchor="middle">Start</text>
+
+    <!-- User Uploads Image or PDF -->
+    <rect x="120" y="80" width="200" height="40" rx="10" ry="10" fill="lightgreen" stroke="black"/>
+    <text x="220" y="105" font-family="Arial" font-size="12" text-anchor="middle">User Uploads Image or PDF</text>
+
+    <!-- Validate File Type -->
+    <rect x="120" y="140" width="200" height="40" rx="10" ry="10" fill="lightyellow" stroke="black"/>
+    <text x="220" y="165" font-family="Arial" font-size="12" text-anchor="middle">Validate File Type</text>
+
+    <!-- View Original File -->
+    <rect x="120" y="200" width="200" height="40" rx="10" ry="10" fill="lightcoral" stroke="black"/>
+    <text x="220" y="225" font-family="Arial" font-size="12" text-anchor="middle">View Original File</text>
+
+    <!-- Convert PDF to Image (if needed) -->
+    <rect x="120" y="260" width="200" height="40" rx="10" ry="10" fill="lightpink" stroke="black"/>
+    <text x="220" y="285" font-family="Arial" font-size="12" text-anchor="middle">Convert PDF to Image</text>
+
+    <!-- Read Image Using FileReader -->
+    <rect x="120" y="320" width="200" height="40" rx="10" ry="10" fill="lightblue" stroke="black"/>
+    <text x="220" y="345" font-family="Arial" font-size="12" text-anchor="middle">Read Image Using FileReader</text>
+
+    <!-- Pass Image Data to Tesseract.js -->
+    <rect x="120" y="380" width="200" height="40" rx="10" ry="10" fill="lightgreen" stroke="black"/>
+    <text x="220" y="405" font-family="Arial" font-size="12" text-anchor="middle">Pass Image Data to Tesseract.js</text>
+
+    <!-- OCR Process: Extract Text -->
+    <rect x="120" y="440" width="200" height="40" rx="10" ry="10" fill="lightyellow" stroke="black"/>
+    <text x="220" y="465" font-family="Arial" font-size="12" text-anchor="middle">OCR Process: Extract Text</text>
+
+    <!-- Display Extracted Text to User -->
+    <rect x="120" y="500" width="200" height="40" rx="10" ry="10" fill="lightpink" stroke="black"/>
+    <text x="220" y="525" font-family="Arial" font-size="12" text-anchor="middle">Display Extracted Text to User</text>
+
+    <!-- Edit Text -->
+    <rect x="120" y="560" width="200" height="40" rx="10" ry="10" fill="lightblue" stroke="black"/>
+    <text x="220" y="585" font-family="Arial" font-size="12" text-anchor="middle">Edit Text</text>
+
+    <!-- Copy Text -->
+    <rect x="120" y="620" width="200" height="40" rx="10" ry="10" fill="lightgreen" stroke="black"/>
+    <text x="220" y="645" font-family="Arial" font-size="12" text-anchor="middle">Copy Text</text>
+
+    <!-- Handle Errors -->
+    <rect x="120" y="680" width="200" height="40" rx="10" ry="10" fill="lightcoral" stroke="black"/>
+    <text x="220" y="705" font-family="Arial" font-size="12" text-anchor="middle">Handle Errors</text>
+
+    <!-- End -->
+    <rect x="120" y="740" width="200" height="40" rx="10" ry="10" fill="lightgoldenrodyellow" stroke="black"/>
+    <text x="220" y="765" font-family="Arial" font-size="14" text-anchor="middle">End</text>
+
+    <!-- Arrows -->
+    <line x1="220" y1="60" x2="220" y2="80" stroke="black" />
+    <line x1="220" y1="120" x2="220" y2="140" stroke="black" />
+    <line x1="220" y1="180" x2="220" y2="200" stroke="black" />
+    <line x1="220" y1="240" x2="220" y2="260" stroke="black" />
+    <line x1="220" y1="300" x2="220" y2="320" stroke="black" />
+    <line x1="220" y1="360" x2="220" y2="380" stroke="black" />
+    <line x1="220" y1="420" x2="220" y2="440" stroke="black" />
+    <line x1="220" y1="480" x2="220" y2="500" stroke="black" />
+    <line x1="220" y1="540" x2="220" y2="560" stroke="black" />
+    <line x1="220" y1="600" x2="220" y2="620" stroke="black" />
+    <line x1="220" y1="660" x2="220" y2="680" stroke="black" />
+    <line x1="220" y1="720" x2="220" y2="740" stroke="black" />
+</svg>
