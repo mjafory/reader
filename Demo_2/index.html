@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Scanner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/tesseract.js@v2.1.1/dist/tesseract.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.5.207/pdf.min.js"></script>
+</head>
+
+<body>
+    <section class="upload-section">
+        <label for="upload" class="upload-btn">Choose a File</label>
+        <input type="file" id="upload" accept=".png, .jpg, .jpeg, .pdf" multiple>
+        <button class="scan-btn" onclick="processFile()">Scan File</button>
+    </section>
+
+    <section class="output-section">
+        <div id="output" class="file-output"></div>
+        <div class="text-output">
+            <h3>Extracted Text</h3>
+            <button class="copy-btn" onclick="copyText()">📋 Copy Text</button>
+            <div contenteditable="true" id="editableText" class="editable-text"></div>
+        </div>
+    </section>
+
+    <h2>Extracted Information</h2>
+    <p><strong>First Name:</strong> <span id="firstNameOutput"></span></p>
+    <p><strong>Last Name:</strong> <span id="lastNameOutput"></span></p>
+    <p><strong>Birth Date:</strong> <span id="dobOutput"></span></p>
+    <p><strong>Address:</strong> <span id="addressOutput"></span></p>
+    <p><strong>Apt. Number:</strong> <span id="aptNumberOutput"></span></p>
+    <p><strong>City:</strong> <span id="cityOutput"></span></p>
+    <p><strong>Zip Code:</strong> <span id="zipCodeOutput"></span></p>
+    <p><strong>Voted Before:</strong> <span id="votedBeforeOutput"></span></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
